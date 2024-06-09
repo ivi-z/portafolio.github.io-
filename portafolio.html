@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ivanna Zarate">
+    <meta name="description" content="Portafolio de desarrollo web de Ivanna Zarate">
+    <meta name="keywords" content="HTML,CSS,JavaScript,React">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- icons de bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon 48x48 (px) -->
+    <link rel="shortcut icon" href="./imagenes/IZ.png" type="image/x-icon">
+    <!-- Titulo -->
+    <title>Ivanna Zarate | Portafolio</title>
+</head>
+<body>
+    <!-- Barra de navegacion /bootstrap/ -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+                <img src="./imagenes/IZ.png" alt="Logo de la pagina" width="50">
+            </a>
+            <ul class="navbar-nav d-felx justify-content-center aling-items-center">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#acerca-de-mi">Sobre mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Seccion principal -->
+    <section class="hero">
+        <div class="hero-principal d-flex-column justify-content-center aling-items-center">
+          <img class="hero-img-de-perfil" src="./imagenes/I.png" alt="Ilustracion de Ivanna Zarate">
+          <h1>Hola! Soy Ivanna Zarate</h1>
+          <h2>Desarrolladora web full stack junior. Me encanta el código y crear experiencias web.</h2>
+        </div>
+        <div class="hero-inferior" >
+          <img class="hero-inferior-imagen img-fluid" src="./imagenes/me.png" alt="Lenguajes de Programación">
+        </div>
+    </section>
+
+    <!-- seccion "sobre mi" -->
+    <section class="sobre-mi seccion-uno" id="acerca-de-mi" >
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Sobre mi</h2>
+        <p class="seccion-texto"> Hola! Soy Ivanna Zarate, Argentina. Soy Desarrolladora Web Full Stack Junior con una pasión por el código y la creación de experiencias web. Actualmente, estoy estudiando una diplomatura Full Stack en Desarrollo Web. Disfruto colaborando en equipo para llevar ideas a la realidad. Estoy encantada de recibir nuevos proyectos y trabajar juntos para crear soluciones innovadoras y efectivas que superen las expectativas.
+        </p>
+      </div>
+    </section>
+
+    <!-- Proyectos --> 
+    <section id="proyectos" class="proyectos-recientes seccion-dos  d-flex flex-column">
+      <h2 class="seccion-titulo">Mis proyectos</h2>
+      <h3 class="seccion-descripcion">Te invito a obsevar algunos de los proyectos que he creado :)</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/piano.png" alt="Un Mundo del Piano">
+              <div class="info-adicional">
+                <p>Un Mundo del Piano</p>
+                <div class="icono-contenedor"> 
+                  <a href="https://miprimersitioweb.org.ar/proyectos/2024/46178894_zarate_ivanna/" target="_blank" rel="noopener noreferrer">
+                   <i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/armonia.jpg" alt="Elige tu Propio Destino">
+              <div class="info-adicional">
+                <p>Elige tu Propio Destino</p>
+                <div class="icono-contenedor"> 
+                  <a href="https://ivi-z.github.io/eligetupropiodestino.github.io-/" target="_blank" rel="noopener noreferrer">
+                   <i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/dino-park.jpg" alt="Dino-Park">
+              <div class="info-adicional">
+                <p>Dino-Park</p>
+                <div class="icono-contenedor"> 
+                  <a href="https://ivi-z.github.io/dino-park.github.io-/" target="_blank" rel="noopener noreferrer">
+                   <i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+      
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto ">
+              <img src="imagenes/star-wars.jpg" alt="Star-Wars">
+              <div class="info-adicional">
+                <p>Star-Wars</p>
+                <div class="icono-contenedor"> 
+                  <a href="https://ivi-z.github.io/star-wars.github.io-/" target="_blank" rel="noopener noreferrer">
+                   <i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/turbo-pics.jpg" alt="Turbo-Pics">
+              <div class="info-adicional">
+                <p>TurboPics</p>
+                <div class="icono-contenedor"> 
+                  <a href="#" rel="noopener noreferrer">
+                   <i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div title="Proximamente" class="proyecto boton-images">
+              <img src="imagenes/proximos-proyectos.jpg" alt="Proyectos">
+              <div class="info-adicional">
+                <p >Proyectos en construccion</p>
+                <div class="icono-contenedor"> 
+                  <a href="#" rel="noopener noreferrer">
+                   <i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div> 
+           </div> 
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-tres">
+      <div class="container">
+        <div class="container justify-content-center">
+          <div class="row">
+            <div class="seccion-titulo text-center">
+              ¡Hablemos!
+            </div>
+            <div class=" descripcion text-center">
+              Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad.
+            </div>
+            <div class="formulario-contacto">
+              <form action="archivo-dos.html" method="post">
+                    <label>Nombre <input type="text" name="nombre" placeholder="Ingrese su Nombre" required> </label>
+                    <br><br>
+                    <label>Email <input type="email" name="email" placeholder="Ingrese su E-email" required> </label>
+                    <br><br>
+                    <label>Teléfono <input type="number" name="telefono"></label>
+                    <br><br>
+                    <label for="mensaje">Mensaje</label>
+                    <br>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="6" placeholder="Ingrese un Mensaje" required></textarea> 
+                <br><br>
+                <input class="boton-enviar" type="submit" value="Enviar">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-uno d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="./imagenes/logo-footer.png" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Gracias por visitar mi portafolio. <br>¡Estoy emocionada por la posibilidad de trabajar juntos!</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/ivannit_a?igsh=bThmZW91MzRjdWI2" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:ivvi.zarate@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+        <a href="https://wa.link/1l9hui" target="_blank">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor"> &#169; 2024 Ivanna Zarate <br> Todos los derechos reservados. </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>

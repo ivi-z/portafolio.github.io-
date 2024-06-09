@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+html{
+    font-size:16px ;
+}
+*{
+    font-family: "Josefin Sans", sans-serif;
+}
+
+/* Barra de navegacion */
+.navbar{
+   padding: 2rem;
+   background-color:#c97ba5;
+
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-link{
+    color:white;
+}
+.navbar-toggler{
+    color: #c97ba5;
+    background-color:#e9c4d8;
+}
+
+/* Estilos generales */
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 2.5rem;
+    color:#3C0537 ;
+    font-family: "Luckiest Guy", cursive;
+    letter-spacing: 3px;
+}
+.seccion-uno {
+    background-color: #4d0d47;
+    color: white;
+}
+
+.seccion-dos{
+    background-color: #e9c4d8;
+    color: #3C0537;
+}
+.seccion-tres{
+    background-color: #c97ba5;
+    color: white;
+}
+
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: "Luckiest Guy", cursive;
+    letter-spacing: 3px; 
+}
+
+.seccion-texto{
+    font-size: 1.1rem;
+    text-align: justify;
+    padding: 0 15px;
+}
+
+.seccion-descripcion{
+    font-size: 1.1rem;
+    color:#570f4f ;
+}
+
+
+/* Seccion principal */
+.hero{
+background-color: #e9c4d8;
+min-height: 450px;
+text-align: center;
+}
+
+.hero-principal{
+    padding: 2.5rem;
+}
+
+.hero-img-de-perfil{
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.hero-principal h2{
+    font-size: 1.3rem;
+    color:#4d0d47
+}
+
+.hero-inferior-imagen{
+padding: 2px 15px;
+}
+
+
+/* sobre mi */
+.sobre-mi{
+    height: 450px;
+    padding: 10px;
+}
+.sobre-mi .contenedor{
+    max-width: 700px;
+    text-align: center;
+
+}
+
+/* proyectos */
+.proyectos-recientes{
+    padding: 40px;
+}
+
+.proyectos-recientes img{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.proyectos-contenedor{
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.info-adicional{
+    transition:all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.info-adicional p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.proyecto:hover img{
+    opacity: 0.2;
+
+}
+.proyecto{
+    position: relative;
+}
+.proyecto:hover .info-adicional{
+    opacity: 1;
+}
+
+.info-adicional .icono-contenedor{
+    display: flex;
+    justify-content: center;
+
+}
+.info-adicional i{
+    color: #4d0d47;
+    font-size: 50px;
+    margin: 10px;
+}
+
+/* Contacto */
+.contacto .container{
+    padding: 20px;
+
+}
+.formulario-contacto{
+    margin: 10px;
+    padding: 10px;
+}
+.formulario-contacto label{
+  font-weight: 700;
+}
+.boton-enviar{
+    color:white;
+    background-color:#4d0d47;
+    border: 0px;
+    border-radius: 10px;
+    padding: 10px 17px;
+}
+
+
+/* Pie de pagina */
+
+footer{
+    min-height: 400px;
+}
+.footer-logo{
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.footer-texto{
+    font-size: 1rem;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.iconos-redes-sociales a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+.iconos-redes-sociales i{
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+
+}
+.iconos-redes-sociales a:hover{
+    background-color:violet ;
+
+}
+.iconos-redes-sociales a:hover i{
+    color: #3C0537;
+}
+
+.derechos-de-autor{
+    font-size: 13px;
+    text-align: center;
+    color:#e9c4d8;
+    padding: 20px;
+}
+
+/* Archivo dos  */
+.respuesta{
+    height: 450px;
+    padding: 10px;
+}
+.respuesta .contenedor{
+    text-align: center;
+}
+
+
+
+/* (Responsivo) */
+@media screen and (max-width:467px){
+    .navbar-brand{
+        display: none;
+    }
+}
+@media screen and (min-width:700px){
+    .hero-inferior-imagen{
+        max-width:600px;
+    }
+}
